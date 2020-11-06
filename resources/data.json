@@ -1,0 +1,62 @@
+  {
+    "people": [
+      {
+        "name": "Christian Peel",
+        "balance": 0
+      },
+      {
+        "name": "Jane McFerri",
+        "balance": 0
+      },
+      {
+        "name": "Sofia Jacksson",
+        "balance": 0
+      }
+    ],
+    "laptops": [
+      {
+        "id": 0,
+        "name": "Intel Celeron E10",
+        "price": 950,
+        "image": "resources/pic1.JPG",
+        "features": [
+          "It has a screen",
+          "There's a keyboard"
+        ],
+        "information": "Thid laptop wil turn on! It os perfect for the first time user who likes to have a computer around!"
+      },
+      {
+        "id": 1,
+        "name": "HP 255 G7",
+        "price": 4990,
+        "image": "resources/pic2.JPG",
+        "features": [
+          "It has a RJ-45-port",
+          "It has a HDMI-port"
+        ],
+        "information": "Looks as professional as the user!"
+      },
+      {
+        "id": 2,
+        "name": "MacBook Air 2020",
+        "price": 10989,
+        "image": "resources/pic3.JPG",
+        "features": [
+          "There's a Touch ID sensor",
+          " It has a 13.3-inch Retina display"
+        ],
+        "information": "MacBook Air 2020 delivers reliable performance, sleek and lightweight design that you can easily take with you during the day!"
+      },
+      {
+        "id": 3,
+        "name": "Huawei MateBook D 14",
+        "price": 7990,
+        "image": "resources/pic4.JPG",
+        "features": [
+          "It as a AMD Ryzen 7 processor",
+          "It has a fingerprint reader"
+        ],
+        "information": "HUAWEI MateBook D 14 is a very thin, light and powerful laptop with an aluminum housing!"
+      }
+    ]
+  }

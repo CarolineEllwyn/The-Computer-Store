@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="fetchInfo()">
+    <div id="header">
+        <h1>Computer Store</h1>
+    </div>
+    <div class="container" id="container">
+        <div class="kpi" id="bank">
+            <h4 id="name"></h4>
+            <p class="item">
+                <span>Balance</span>
+                <span><span id="balance"></span>kr</span>
+            </p>
+            <br>
+            <br>
+            <button class="btnLoan" id="btnLoan">Get a loan</button>
+        </div>
+        <div class="kpi" id="work">
+            <h4>Work</h4>
+            <p class="item">
+                <span>Pay</span>
+                <span>
+                    <span id="earnedMoney">
+                    </span>
+                    kr</span>
+            </p>
+            <div class="item workBtns">
+                <button class="btnBank" id="btnBank">Bank</button>
+                <button class="btnWork" id="btnWork">Work</button>
+            </div>
+        </div>
+        <div class="kpi" id="laptops">
+            <h4>Laptops</h4>
+            <select name="Laptops" id="laptopsDropdown" onchange="selectedLaptop(this.value)">
+                <option value="undefined">Select Laptop</option>
+            </select>
+            <p style="font-weight: bold; margin-bottom: 0; display: none;" id="featureTitle">Features:</p>
+            <div id="featuresInfo"></div>
+        </div>
+    </div>
+    <div class="laptopInfo" id="laptopInfo">
+        <div class="image"><img src="" id="image" alt=""></div>
+        <div class="about" id="about">
+            <p id="title"></p>
+            <p id="info"></p>
+        </div>
+        <div class="price" id="price">
+            <h4 id="laptopPrice"></h4>
+            <button class="btnBuy" style="display: none;" id="btnBuy">Buy now</button>
+        </div>
+    </div>
+    <script src="resources/data.json"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

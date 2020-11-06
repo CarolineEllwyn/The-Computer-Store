@@ -1,0 +1,96 @@
+    body {
+        margin: 0 auto;
+        width: 100%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+#header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    border:  solid black;
+    background-color: #828181;
+    color: #ccc8c8;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 40px;
+    margin-top: 50px;
+}
+
+.kpi{
+    width: 200px;
+    height: 200px;
+    background-color: #f2f0f0;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnLoan {
+    background-color: #76db92;
+    border-radius: 5px;
+}
+
+.btnBank{
+    background-color: #ede695;
+    border-radius: 5px;
+}
+
+.btnWork{
+    background-color: #7dc0ff;
+    border-radius: 5px;
+}
+.workBtns {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
+}
+
+.btnBuy {
+    background-color: #00dbdb;
+    border-radius: 5px;
+} 
+
+.laptopInfo {
+    width: 650px;
+    margin: 20px auto 0 auto;
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 5px;
+    display: none;
+    grid-template-columns: auto  40% 30%;
+    column-gap: 10px;
+}
+#image {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#price {
+    text-align: center;
+}
+
+#laptopsDropdown {
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+}
+
